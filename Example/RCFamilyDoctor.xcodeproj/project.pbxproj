@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E9103D5DD95F35EF50C1BE /* Pods_RCFamilyDoctor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A5C3583F4D28A93E07694E /* Pods_RCFamilyDoctor_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		83A8DEA33ECD3BD3E1ED8526 /* libPods-RCFamilyDoctor_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46170B5DC04F5A50EB12453C /* libPods-RCFamilyDoctor_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FF6714559093D86BDA385ACF /* Pods_RCFamilyDoctor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0100EB8A882420AC50D8B5F /* Pods_RCFamilyDoctor_Tests.framework */; };
+		D7E2742676A2B3AA280043E8 /* libPods-RCFamilyDoctor_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FAE78FE951AA604D0AFE7AC /* libPods-RCFamilyDoctor_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 		1C001414EA92195E73AD2767 /* Pods-RCFamilyDoctor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFamilyDoctor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCFamilyDoctor_Tests/Pods-RCFamilyDoctor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EE510382B92E737FDA3727D /* Pods-RCFamilyDoctor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFamilyDoctor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCFamilyDoctor_Example/Pods-RCFamilyDoctor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38231FBE9E0191666F6D16EC /* Pods-RCFamilyDoctor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFamilyDoctor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCFamilyDoctor_Tests/Pods-RCFamilyDoctor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46170B5DC04F5A50EB12453C /* libPods-RCFamilyDoctor_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCFamilyDoctor_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RCFamilyDoctor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCFamilyDoctor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6724AD43E1C6A0B569C7AAD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6724AD43E1C6A0B569C7AAD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FAE78FE951AA604D0AFE7AC /* libPods-RCFamilyDoctor_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCFamilyDoctor_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72EBDAAA61A7EBB523B9B555 /* Pods-RCFamilyDoctor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFamilyDoctor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCFamilyDoctor_Example/Pods-RCFamilyDoctor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B5FC40188EABE13142BABD5 /* RCFamilyDoctor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RCFamilyDoctor.podspec; path = ../RCFamilyDoctor.podspec; sourceTree = "<group>"; };
+		7B5FC40188EABE13142BABD5 /* RCFamilyDoctor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCFamilyDoctor.podspec; path = ../RCFamilyDoctor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A956615FB6A04F89069D908F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F0100EB8A882420AC50D8B5F /* Pods_RCFamilyDoctor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCFamilyDoctor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9A5C3583F4D28A93E07694E /* Pods_RCFamilyDoctor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCFamilyDoctor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A956615FB6A04F89069D908F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				06E9103D5DD95F35EF50C1BE /* Pods_RCFamilyDoctor_Example.framework in Frameworks */,
+				83A8DEA33ECD3BD3E1ED8526 /* libPods-RCFamilyDoctor_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FF6714559093D86BDA385ACF /* Pods_RCFamilyDoctor_Tests.framework in Frameworks */,
+				D7E2742676A2B3AA280043E8 /* libPods-RCFamilyDoctor_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F9A5C3583F4D28A93E07694E /* Pods_RCFamilyDoctor_Example.framework */,
-				F0100EB8A882420AC50D8B5F /* Pods_RCFamilyDoctor_Tests.framework */,
+				46170B5DC04F5A50EB12453C /* libPods-RCFamilyDoctor_Example.a */,
+				6FAE78FE951AA604D0AFE7AC /* libPods-RCFamilyDoctor_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				85515E202C2673997F5A65D2 /* [CP] Embed Pods Frameworks */,
+				9A4B8FC316FE2373189759F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,11 +302,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RCFamilyDoctor_Example/Pods-RCFamilyDoctor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RCFamilyDoctor/RCFamilyDoctor.framework",
+				"${PODS_ROOT}/YZAppSDK/Release/YZBaseSDK.framework",
+				"${PODS_ROOT}/YZAppSDK/Release/YZSDKCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCFamilyDoctor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZBaseSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YZSDKCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -328,6 +331,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4B8FC316FE2373189759F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RCFamilyDoctor_Example/Pods-RCFamilyDoctor_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EasyUI/EasyUI.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MTalker/MTalker.bundle",
+				"${PODS_ROOT}/RCBaseComponent/RCBaseComponent/Classes/RCBaseComponent.bundle",
+				"${PODS_ROOT}/../../RCFamilyDoctor/Classes/RCFamilyDoctor.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EasyUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MTalker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCBaseComponent.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCFamilyDoctor.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCFamilyDoctor_Example/Pods-RCFamilyDoctor_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9AFC3A4CB55A76CBB4810705 /* [CP] Check Pods Manifest.lock */ = {
@@ -485,6 +518,7 @@
 			baseConfigurationReference = 72EBDAAA61A7EBB523B9B555 /* Pods-RCFamilyDoctor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCFamilyDoctor/RCFamilyDoctor-Prefix.pch";
 				INFOPLIST_FILE = "RCFamilyDoctor/RCFamilyDoctor-Info.plist";
@@ -500,6 +534,7 @@
 			baseConfigurationReference = 1EE510382B92E737FDA3727D /* Pods-RCFamilyDoctor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCFamilyDoctor/RCFamilyDoctor-Prefix.pch";
 				INFOPLIST_FILE = "RCFamilyDoctor/RCFamilyDoctor-Info.plist";

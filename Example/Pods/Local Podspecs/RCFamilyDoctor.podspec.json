@@ -1,0 +1,53 @@
+{
+  "name": "RCFamilyDoctor",
+  "version": "0.1.0",
+  "summary": "瑰柏科技家庭医生组件",
+  "homepage": "https://github.com/rocedar/RCFamilyDoctor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutengwei": "wutengwei@rocedar.com"
+  },
+  "source": {
+    "git": "https://github.com/rocedar/RCFamilyDoctor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "RCFamilyDoctor/Classes/RCFamilyDoctor.bundle",
+  "ios": {
+    "vendored_frameworks": "RCFamilyDoctor/Classes/RCFamilyDoctor.framework"
+  },
+  "dependencies": {
+    "RCBaseComponent": [
+      "0.1.0"
+    ],
+    "EasyUI": [
+      "~> 0.3.4"
+    ],
+    "UPYUN": [
+      "~> 1.0.0"
+    ],
+    "IQKeyboardManager": [
+      "~> 4.0.7"
+    ],
+    "YZAppSDK": [
+
+    ],
+    "Masonry": [
+      "~> 1.0.1"
+    ],
+    "SDWebImage": [
+      "4.0.0"
+    ],
+    "MJRefresh": [
+      "3.1.0"
+    ],
+    "CYLTableViewPlaceHolder": [
+
+    ]
+  }
+}

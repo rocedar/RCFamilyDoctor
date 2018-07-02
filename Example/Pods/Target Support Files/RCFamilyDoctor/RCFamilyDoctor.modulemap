@@ -1,0 +1,6 @@
+framework module RCFamilyDoctor {
+  umbrella header "RCFamilyDoctor-umbrella.h"
+
+  export *
+  module * { export * }
+}

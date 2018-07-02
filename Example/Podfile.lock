@@ -1,0 +1,118 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - CYLTableViewPlaceHolder (1.0.8)
+  - EasyUI (0.3.4):
+    - Aspects (~> 1.4.1)
+    - Masonry (~> 1.0.2)
+    - MTalker
+    - Reachability (~> 3.2)
+    - SDWebImage (~> 4.0.0-beta2)
+    - XY_NetWorkClient (~> 1.0.6)
+  - ftcodec (1.1.0.307)
+  - IQKeyboardManager (4.0.13)
+  - KeychainItemWrapper-hicool (0.0.1)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.0)
+  - MTalker (0.3.3):
+    - ftcodec (~> 1.1.0.307)
+    - KeychainItemWrapper-hicool (~> 0.0.1)
+    - MJExtension (~> 3.0.13)
+    - XY_NetWorkClient (~> 1.0.6)
+  - RCBaseComponent (0.1.0):
+    - AFNetworking
+    - MJExtension
+    - SVProgressHUD
+  - RCFamilyDoctor (0.1.0):
+    - CYLTableViewPlaceHolder
+    - EasyUI (~> 0.3.4)
+    - IQKeyboardManager (~> 4.0.7)
+    - Masonry (~> 1.0.1)
+    - MJRefresh (= 3.1.0)
+    - RCBaseComponent (= 0.1.0)
+    - SDWebImage (= 4.0.0)
+    - UPYUN (~> 1.0.0)
+    - YZAppSDK
+  - Reachability (3.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - UPYUN (1.0.3)
+  - XY_NetWorkClient (1.0.6):
+    - AFNetworking
+  - YZAppSDK (6.3.4):
+    - YZAppSDK/Base (= 6.3.4)
+  - YZAppSDK/Base (6.3.4):
+    - YZAppSDK/Core
+  - YZAppSDK/Core (6.3.4)
+
+DEPENDENCIES:
+  - RCFamilyDoctor (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - CYLTableViewPlaceHolder
+    - IQKeyboardManager
+    - KeychainItemWrapper-hicool
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - SVProgressHUD
+    - UPYUN
+    - YZAppSDK
+  https://github.com/rocedar/RocedarPodSpecs.git:
+    - RCBaseComponent
+  https://github.com/rRun/xy_podSepcs.git:
+    - EasyUI
+    - ftcodec
+    - MTalker
+    - XY_NetWorkClient
+
+EXTERNAL SOURCES:
+  RCFamilyDoctor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CYLTableViewPlaceHolder: 44075c119aab78bbc514c75d771d6565e19938e8
+  EasyUI: 6e26a014e16b528d0cd3b34dfbaf089fae02259a
+  ftcodec: 9ccb75f978b7367d1908adc4e3ca4b79baa69950
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  KeychainItemWrapper-hicool: 880c603d8d0acfcc5b87d22bc45b49d3283dce1d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
+  RCBaseComponent: d6b44697698a6b40316df50661560f326cfa2050
+  RCFamilyDoctor: 0e8dbad69c047944e8dd9d08beb1c8bc1180dffe
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UPYUN: 9057df65fa50b8c459598ecb97f237040ebddf7c
+  XY_NetWorkClient: 9a87af9a7f98cad27bf99b52f494447fde6dd933
+  YZAppSDK: 1703d2c402ea126032c5cd9d032ec2dd7edf9113
+
+PODFILE CHECKSUM: 8641b494608299573026deec2c0a50fe3bdb808f
+
+COCOAPODS: 1.5.2
