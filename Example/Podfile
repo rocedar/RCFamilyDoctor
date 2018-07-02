@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RCFamilyDoctor_Example' do
+  pod 'RCFamilyDoctor', :path => '../'
+
+  target 'RCFamilyDoctor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
