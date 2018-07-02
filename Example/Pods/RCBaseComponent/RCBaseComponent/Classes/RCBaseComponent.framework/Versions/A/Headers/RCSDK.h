@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** 创建单例 */
 + (instancetype)shareSDK;
 
+/** 是否是 Debug 模式 */
++ (void)setDebug:(BOOL)debug;
+
 /**
  SDK 初始化
  

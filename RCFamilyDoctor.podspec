@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.resource = 'RCFamilyDoctor/Classes/RCFamilyDoctor.bundle'
   s.ios.vendored_frameworks = 'RCFamilyDoctor/Classes/RCFamilyDoctor.framework'
   
-  s.dependency 'RCBaseComponent','0.1.0'
+  s.dependency 'RCBaseComponent'
   s.dependency 'EasyUI','~> 0.3.4'
   
   s.dependency 'UPYUN', '~> 1.0.0'
