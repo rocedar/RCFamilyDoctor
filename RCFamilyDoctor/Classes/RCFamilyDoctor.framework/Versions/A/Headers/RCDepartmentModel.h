@@ -18,7 +18,7 @@
 @end
 
 
-@interface DYPropertyModel : NSObject
+@interface RCPropertyModel : NSObject
 
 /** 属性类型 */
 @property (copy, nonatomic) NSString *propertyType;

@@ -38,7 +38,7 @@ PODS:
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCFamilyDoctor (0.1.0):
+  - RCFamilyDoctor (0.1.1):
     - CYLTableViewPlaceHolder
     - EasyUI (~> 0.3.4)
     - IQKeyboardManager (~> 4.0.7)
@@ -46,6 +46,7 @@ PODS:
     - MJRefresh (= 3.1.0)
     - RCBaseComponent
     - SDWebImage (= 4.0.0)
+    - TZImagePickerController
     - UPYUN (~> 1.0.0)
     - YZAppSDK
   - Reachability (3.2)
@@ -53,6 +54,7 @@ PODS:
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SVProgressHUD (2.2.5)
+  - TZImagePickerController (2.1.8)
   - UPYUN (1.0.3)
   - XY_NetWorkClient (1.0.6):
     - AFNetworking
@@ -78,6 +80,7 @@ SPEC REPOS:
     - Reachability
     - SDWebImage
     - SVProgressHUD
+    - TZImagePickerController
     - UPYUN
     - YZAppSDK
   https://github.com/rocedar/RocedarPodSpecs.git:
@@ -105,10 +108,11 @@ SPEC CHECKSUMS:
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
   RCBaseComponent: 3c83638c241c74c211102ec4e030dabbd7ad1819
-  RCFamilyDoctor: eca4e85b47fcad5c72b9e5ee847bca3c545a1904
+  RCFamilyDoctor: 58f44704041a9a40612f3fcec24c93455c1d8707
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: c2c75f3d5c6b9c634185ecb458df66d0aab8bbae
   UPYUN: 9057df65fa50b8c459598ecb97f237040ebddf7c
   XY_NetWorkClient: 9a87af9a7f98cad27bf99b52f494447fde6dd933
   YZAppSDK: 1703d2c402ea126032c5cd9d032ec2dd7edf9113
