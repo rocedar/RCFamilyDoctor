@@ -13,20 +13,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [RCSDK setDebug:YES];  //设置debug 模式
-    [[RCSDK shareSDK] initWithAppid:@"100104"
-                             appkey:@"bbd97dde455a76880c177b43"
-                              token:@"3dc4eb47c9142a822bf260ac34730849"
+//    [RCSDK setDebug:YES];  //设置debug 模式
+    [[RCSDK shareSDK] initWithAppid:@"101"
+                             appkey:@"5e7545427d72c391"
+                              token:@"a0c3e71f51301264dc67f20e8a59c9f3"
                      invalidHandler:^(RCErrorCode errorCode) {
                         //错误回调 token失效  未设置手机号 手机号已被绑定 回调
-                        //[RCSDK setPhone:@"110"];
+                        //[RCSDK setPhone:@"xxxxx"];
                          //更新token
                          //[RCSDK setToken:@"7d1159efcdaa7aba02c16f01b851867c"];
                      }];
     
-    [RCSDK setLogEnabled:YES];  //控制log
+    [RCSDK setLogEnabled:NO];  //控制log
     
-    // RCBaseConfigInstance.rc_theme_deep_color = [UIColor greenColor];
+    //    RCBaseConfigInstance.rc_theme_deep_color = [UIColor greenColor];
     return YES;
 }
 
