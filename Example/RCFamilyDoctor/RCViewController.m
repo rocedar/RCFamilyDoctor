@@ -18,12 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"家庭医生";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     RCFDHomePageController *homeVc = [[RCFDHomePageController alloc] init];
-    homeVc.user_phone = @"13691365870";
+    homeVc.user_phone = @"13691365870";   //如果没有手机号设置为空即可
     homeVc.user_icon_url = [NSURL URLWithString:@"http://img.dongya.rocedar.com/s/d/hudayi.png"];
     [self.navigationController pushViewController:homeVc animated:YES];
 }

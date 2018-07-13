@@ -5,8 +5,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger,RCErrorCode) {
-    RCTokenErrorCode        = 1001,  //token 失效
-    RCNOPhoneErrorCode    = 1101  //没有手机号
+    RCTokenErrorCode         = 1001,  //token 失效
+    RCNOPhoneErrorCode       = 1101,  //没有手机号
+    RCInvalidPhoneErrorCode  = 1102,  //手机号已被绑定
 };
 
 @interface RCBaseConfig : NSObject
@@ -29,7 +30,7 @@ typedef NS_ENUM(NSInteger,RCErrorCode) {
 /** p_secret */
 @property (nonatomic,copy,readonly) NSString *p_secret;
 /** phone 手机号 */
-@property (nonatomic,copy) NSString *phone;
+@property (nonatomic,copy,readonly) NSString *phone;
 
 + (instancetype)sharedConfig;
 
