@@ -4,6 +4,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger,RCErrorCode) {
+    RCTokenErrorCode        = 1001,  //token 失效
+    RCNOPhoneErrorCode    = 1101  //没有手机号
+};
+
 @interface RCBaseConfig : NSObject
 
 /** 全局主题色深色 (按钮背景色) */
@@ -23,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy,readonly) NSString *app_id;
 /** p_secret */
 @property (nonatomic,copy,readonly) NSString *p_secret;
+/** phone 手机号 */
+@property (nonatomic,copy) NSString *phone;
 
 + (instancetype)sharedConfig;
 
@@ -44,15 +51,18 @@ NS_ASSUME_NONNULL_BEGIN
  @param appid appid
  @param appkey appkey
  @param token token
- @param invalidHandler token 过期回调
+ @param invalidHandler token 过期回调  110001 无手机号  100001 token失效
  */
 - (void)initWithAppid:(nonnull NSString *)appid
                appkey:(nonnull NSString *)appkey
                 token:(NSString *)token
-       invalidHandler:(void(^)(void))invalidHandler;
+       invalidHandler:(void(^)(RCErrorCode errorCode))invalidHandler;
 
 /** 设置token */
 + (void)setToken:(NSString *)token;
+
+/** 设置手机号 */
++ (void)setPhone:(NSString *)phone;
 
 void CustomLog(const char *func, int lineNumber, NSString *format, ...);
 
