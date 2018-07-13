@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "RCBaseComponent": [
-
+      "0.2.2"
     ],
     "EasyUI": [
       "~> 0.3.4"
@@ -35,7 +35,7 @@
       "~> 4.0.7"
     ],
     "YZAppSDK": [
-
+      "6.3.4"
     ],
     "Masonry": [
       "~> 1.0.1"
