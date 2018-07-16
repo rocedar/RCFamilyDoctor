@@ -38,7 +38,7 @@ PODS:
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCFamilyDoctor (0.1.4):
+  - RCFamilyDoctor (0.1.5):
     - CYLTableViewPlaceHolder
     - EasyUI (~> 0.3.4)
     - IQKeyboardManager (~> 4.0.7)
@@ -108,7 +108,7 @@ SPEC CHECKSUMS:
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
   RCBaseComponent: 717d5ed7734d72644c48015f51e294110a2b91de
-  RCFamilyDoctor: 4a6a3784654a9c45b8f421a22087085ec13f035a
+  RCFamilyDoctor: 23a2d410bc3d0fe4de07f0bf68f01c697463b172
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
