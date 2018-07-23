@@ -34,17 +34,17 @@ PODS:
     - KeychainItemWrapper-hicool (~> 0.0.1)
     - MJExtension (~> 3.0.13)
     - XY_NetWorkClient (~> 1.0.6)
-  - RCBaseComponent (0.2.2):
+  - RCBaseComponent (0.2.3):
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCFamilyDoctor (0.1.5):
+  - RCFamilyDoctor (0.1.6):
     - CYLTableViewPlaceHolder
     - EasyUI (~> 0.3.4)
     - IQKeyboardManager (~> 4.0.7)
     - Masonry (~> 1.0.1)
     - MJRefresh (= 3.1.0)
-    - RCBaseComponent (= 0.2.2)
+    - RCBaseComponent
     - SDWebImage (= 4.0.0)
     - TZImagePickerController
     - UPYUN (~> 1.0.0)
@@ -107,8 +107,8 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
-  RCBaseComponent: 717d5ed7734d72644c48015f51e294110a2b91de
-  RCFamilyDoctor: 23a2d410bc3d0fe4de07f0bf68f01c697463b172
+  RCBaseComponent: d60a2eea1edfc8ef211b0e148b2c5cff9b3662c5
+  RCFamilyDoctor: 48fa8663fa5ab847f586caa3ae83b61e456c3de7
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
