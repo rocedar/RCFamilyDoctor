@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RCFamilyDoctor'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '瑰柏科技家庭医生组件'
   s.homepage         = 'https://github.com/rocedar/RCFamilyDoctor'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.resource = 'RCFamilyDoctor/Classes/RCFamilyDoctor.bundle'
   s.ios.vendored_frameworks = 'RCFamilyDoctor/Classes/RCFamilyDoctor.framework'
+  
+  s.framework = 'ContactsUI','AddressBookUI','AddressBook'
   
   s.dependency 'RCBaseComponent'
   s.dependency 'EasyUI','~> 0.3.4'

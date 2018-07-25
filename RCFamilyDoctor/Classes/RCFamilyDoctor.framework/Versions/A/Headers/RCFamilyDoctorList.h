@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RCFamilyDoctorList : UIViewController
-
+/** 用户手机号 */
+@property (nonatomic,copy) NSString *user_phone;
+/** 用户使用的设备 多个设备逗号隔开 */
+@property (nonatomic,copy) NSString *device_no;
 @end

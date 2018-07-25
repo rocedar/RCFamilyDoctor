@@ -45,6 +45,16 @@ NS_ASSUME_NONNULL_BEGIN
 /** 我的医生空白页图片 */
 @property (nonatomic,strong) UIImage *doctor_mydoctor_list_nodataImg;
 
+#pragma mark - 名医 我的订单
+/** 我的订单空白页图片 */
+@property (strong, nonatomic) UIImage *mingyi_myorder_list_nodataImg;
+
+#pragma mark - 名医 健康服务首页
+/** 名医健康服务首页 顶部背景图片 */
+@property (nonatomic,strong) UIImage *mingyi_home_header_bg_Img;
+/** vip 皇冠 图标 */
+@property (nonatomic,strong) UIImage *mingyi_home_heaer_vip_Img;
+
 #pragma mark - 获取用户基本信息
 /** 用户手机号 */
 @property (nonatomic,copy) NSString *phone;

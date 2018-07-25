@@ -294,4 +294,153 @@ typedef void(^RCFailureHandler)(NSError *error);
                        clientSecret:(NSString *) clientSecret
                   completionHandler:(RCSuccessHandler)completionHandler
                        errorHandler:(RCFailureHandler)errorHandler;
+
+#pragma mark - 订单
+
+/**
+ 订单列表
+
+ @param status 订单状态(多个状态英文逗号隔开)
+ @param page 页码(从0开始)
+ */
++ (void)queryOrderListWithStatus:(NSString *)status
+                            page:(NSInteger)page
+               completionHandler:(RCSuccessHandler)completionHandler
+                    errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 订单详情
+
+ @param order_id 订单ID
+ @param order_type 订单类型
+ */
++ (void)queryOrderDetailWithOrderId:(NSString *)order_id
+                          orderType:(NSInteger)order_type
+                  completionHandler:(RCSuccessHandler)completionHandler
+                       errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 去支付
+ 
+ @param order_id 订单ID
+ */
++ (void)toPayWithOrderId:(NSString *)order_id
+       completionHandler:(RCSuccessHandler)completionHandler
+            errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 取消订单
+ 
+ @param order_id 订单ID
+ */
++ (void)cancelOrderWithOrderId:(NSString *)order_id
+             completionHandler:(RCSuccessHandler)completionHandler
+                  errorHandler:(RCFailureHandler)errorHandler;
+
+
+/**
+ 退款
+ 
+ @param order_id 订单ID
+ @param refund_desc 退款详情
+ */
++ (void)refundWithOrderId:(NSString *)order_id
+               refundDesc:(NSString *)refund_desc
+        completionHandler:(RCSuccessHandler)completionHandler
+             errorHandler:(RCFailureHandler)errorHandler;
+
+#pragma mark - 名医
+/**
+ 部门筛选
+ */
++ (void)getDepartmentSelectListWithCompletionHandler:(RCSuccessHandler)completionHandler
+                                        errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 价格区间筛选
+ */
++ (void)getPriceSelectListWithCompletionHandler:(RCSuccessHandler)completionHandler
+                                   errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 医院筛选
+ */
++ (void)getHospitalSelectListWithCompletionHandler:(RCSuccessHandler)completionHandler
+                                      errorHandler:(RCFailureHandler)errorHandler;
+#pragma mark - 名医首页列表
+
+/**
+ 推荐医生列表 (名医首页)
+ 
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryMingYiRecommendDoctorWithCompletionHandler:(RCSuccessHandler)completionHandler
+                                               errorHandler:(RCFailureHandler)errorHandler;
+
+#pragma mark - 名医详情
+
+/**
+ 名医详情
+ 
+ @param dotorId 医生id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryMingYiDoctorDetailWithDoctorId:(NSString *)dotorId
+                          completionHandler:(RCSuccessHandler)completionHandler
+                               errorHandler:(RCFailureHandler)errorHandler;
+#pragma mark - 订单管理
+
+/**
+ 获取病人列表
+ */
++ (void)getPaientListWithCompletionHandler:(RCSuccessHandler)completionHandler
+                              errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 保存病人信息
+
+ @param name 姓名
+ @param sex 性别
+ @param birthday 生日
+ @param height 身高
+ @param weight 体重
+ */
++ (void)savePatientWithName:(NSString *)name
+                        sex:(NSString *)sex
+                   birthday:(NSString *)birthday
+                     height:(NSString *)height
+                     weight:(NSString *)weight
+          completionHandler:(RCSuccessHandler)completionHandler
+               errorHandler:(RCFailureHandler)errorHandler;
+/**
+ 生成订单
+ 
+ @param doctorId 医生id
+ @param type 服务类型
+ @param patient_id 病人id
+ @param phone 手机号
+ @param reservation_time 期望时间
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)saveServerOrderWithdoctorId:(NSString *)doctorId
+                        serviceType:(NSString *)type
+                          patientId:(NSString *)patient_id
+                              phone:(NSString *)phone
+                    reservationTime:(NSString *)reservation_time
+                  completionHandler:(RCSuccessHandler)completionHandler
+                       errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 去支付 生成h5 页面
+ 
+ @param orderId 订单id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryMingYiPayOrderAddressWithorderId:(NSString *)orderId
+                            completionHandler:(RCSuccessHandler)completionHandler
+                                 errorHandler:(RCFailureHandler)errorHandler;
 @end
