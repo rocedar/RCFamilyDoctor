@@ -1,0 +1,17 @@
+//
+//  RCMingYiHomePageController.h
+//  AFNetworking
+//
+//  Created by wtw on 2018/7/18.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface RCMingYiHomePageController : UIViewController
+/** 用户手机号 */
+@property (nonatomic,copy) NSString *user_phone;
+/** 用户头像地址 */
+@property (nonatomic,strong) NSURL *user_icon_url;
+/** 用户使用的设备 多个设备逗号隔开 */
+@property (nonatomic,copy) NSString *device_no;
+@end
