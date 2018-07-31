@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RCEditInfoController : UIViewController
+
+@property (copy, nonatomic) NSString *from;
+
 - (void)editInfoWithBlock:(void(^)(NSString *name, NSInteger sickId))block;
 @end

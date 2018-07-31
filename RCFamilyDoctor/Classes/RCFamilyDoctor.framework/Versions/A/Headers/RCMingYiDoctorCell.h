@@ -12,5 +12,8 @@
 
 @property (nonatomic,strong) RCMingYiDoctorListModel *model;
 
+/** 展开/收起 */
+@property (copy, nonatomic) void(^openBlock)(RCMingYiDoctorListModel *model);
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

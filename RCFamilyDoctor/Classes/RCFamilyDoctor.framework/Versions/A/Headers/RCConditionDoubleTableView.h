@@ -6,11 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCDropdownModel.h"
 
 @protocol RCConditionDoubleTableViewDelegate <NSObject>
 
 @required
-- (void)selectedFirstValues:(NSArray *)values withTitle:(NSString *)title;
+- (void)selectedFirstModel:(RCDropdownModel *)firstModel withSecondModel:(RCChildModel *)secondModel;
 @end
 
 @interface RCConditionDoubleTableView : UIViewController
@@ -19,7 +20,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame;
 
-- (void)showTableView:(NSInteger)index withShowItems:(NSArray *)showItems WithSelected:(NSString *)selected;
+- (void)showTableView:(NSInteger)index withShowItems:(NSArray *)showItems;
 - (void)hideTableView;
 
 @end

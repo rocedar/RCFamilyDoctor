@@ -30,4 +30,14 @@
 @property (nonatomic,copy) NSString *fee;
 /** 服务时长 */
 @property (nonatomic,copy) NSString *fee_time;
+/** 是否展开 */
+@property (assign, nonatomic) BOOL isOpen;
+/** 是否是一行 */
+@property (assign,nonatomic) BOOL isMultiLine;
+
+@property (assign, nonatomic) CGFloat cellHeight;
+
+@property (assign, nonatomic) CGFloat staticCellHeight;
+
+
 @end

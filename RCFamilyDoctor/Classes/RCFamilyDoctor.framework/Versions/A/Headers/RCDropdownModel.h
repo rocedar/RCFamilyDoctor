@@ -11,12 +11,13 @@
 
 @interface RCDropdownModel : NSObject
 
+@property (assign, nonatomic) int index;
+
 @property (copy, nonatomic) NSString *select_id;
 @property (copy, nonatomic) NSString *name;
 @property (strong, nonatomic) NSArray <RCChildModel *>*childs;
 /** 是否选中 */
 @property (assign, nonatomic) BOOL isSelected;
-
 @end
 
 @interface RCChildModel : NSObject

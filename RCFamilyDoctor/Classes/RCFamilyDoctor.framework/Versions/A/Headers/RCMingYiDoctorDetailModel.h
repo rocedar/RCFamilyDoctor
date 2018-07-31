@@ -35,6 +35,8 @@
 @property (nonatomic,assign) CGFloat profileHeight;
 /** 服务高度 */
 @property (nonatomic,assign) CGFloat serverHeight;
+/** header 高度 */
+@property (nonatomic,assign) CGFloat headerHeight;
 @end
 
 @interface RCMingYiDoctorServerTypeDetail : NSObject

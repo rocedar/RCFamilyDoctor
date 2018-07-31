@@ -20,6 +20,8 @@
 @property (copy, nonatomic) NSString *order_type;
 /** 实付金额 */
 @property (copy, nonatomic) NSString *fee_paid;
+/** 待付金额 */
+@property (copy, nonatomic) NSString *fee;
 /** 支付时间 */
 @property (copy, nonatomic) NSString *pay_time;
 /** 确认服务时间 */
@@ -32,7 +34,8 @@
 @property (copy, nonatomic) NSString *reservation_time;
 /** 医生信息快照 */
 @property (strong, nonatomic) Snapshot *snapshot;
-
+/** 病人id */
+@property (nonatomic,copy) NSString *patient_id;
 @property (assign, nonatomic) CGFloat height;
 
 @end

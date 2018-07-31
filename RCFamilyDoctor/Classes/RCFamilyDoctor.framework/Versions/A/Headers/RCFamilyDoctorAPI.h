@@ -295,7 +295,26 @@ typedef void(^RCFailureHandler)(NSError *error);
                   completionHandler:(RCSuccessHandler)completionHandler
                        errorHandler:(RCFailureHandler)errorHandler;
 
-#pragma mark - 订单
+#pragma mark - 名医订单管理
+
+/**
+ 生成订单
+ 
+ @param doctorId 医生id
+ @param type 服务类型
+ @param patient_id 病人id
+ @param phone 手机号
+ @param reservation_time 期望时间
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)saveServerOrderWithdoctorId:(NSString *)doctorId
+                        serviceType:(NSString *)type
+                          patientId:(NSString *)patient_id
+                              phone:(NSString *)phone
+                    reservationTime:(NSString *)reservation_time
+                  completionHandler:(RCSuccessHandler)completionHandler
+                       errorHandler:(RCFailureHandler)errorHandler;
 
 /**
  订单列表
@@ -349,6 +368,61 @@ typedef void(^RCFailureHandler)(NSError *error);
         completionHandler:(RCSuccessHandler)completionHandler
              errorHandler:(RCFailureHandler)errorHandler;
 
+/**
+ 查询支付结果
+ 
+ @param orderId 订单id
+ @param payment_type 支付类型 1000,微信；1001,支付宝
+ @param completionHandler   支付成功返回值："trade_status":"success" "trade_msg":"支付成功"
+ @param errorHandler 失败返回值："trade_status":"fail"  "trade_msg":"支付失败"
+ */
++ (void)queryOrderPayStatusWithOrderId:(NSString *)orderId
+                           paymentType:(NSString *)payment_type
+                     completionHandler:(RCSuccessHandler)completionHandler
+                          errorHandler:(RCFailureHandler)errorHandler;
+
+#pragma mark - 保存名医问诊记录
+
+/**
+ 保存问诊记录
+ 
+ @param patient_id 患者id
+ @param medical_time 就诊时间
+ @param order_id 订单ID
+ @param hospital 医院
+ @param profession 就诊科室
+ @param result 诊断结果
+ @param inspection 检查单
+ @param case_data 病历资料
+ @param symptom 当前症状
+ @param expect_help 期望得到医生的何种帮助
+ @param completionHandler  成功回调
+ @param errorHandler 失败回调
+ */
++ (void)savePatientMedicalRecordWithPatientId:(NSString *)patient_id
+                                  medicalTime:(NSString *)medical_time
+                                      orderId:(NSString *)order_id
+                                     hospital:(NSString *)hospital
+                                   profession:(NSString *)profession
+                                       result:(NSString *)result
+                                   inspection:(NSString *)inspection
+                                     caseData:(NSString *)case_data
+                                      symptom:(NSString *)symptom
+                                   expectHelp:(NSString *)expect_help
+                            completionHandler:(RCSuccessHandler)completionHandler
+                                 errorHandler:(RCFailureHandler)errorHandler;
+/**
+ 查询问诊记录
+ 
+ @param patient_id 患者id
+ @param order_id 订单id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryPatientMedicalRecordWithPatientId:(NSString *)patient_id
+                                       orderId:(NSString *)order_id
+                             completionHandler:(RCSuccessHandler)completionHandler
+                                  errorHandler:(RCFailureHandler)errorHandler;
 #pragma mark - 名医
 /**
  部门筛选
@@ -378,6 +452,14 @@ typedef void(^RCFailureHandler)(NSError *error);
 + (void)queryMingYiRecommendDoctorWithCompletionHandler:(RCSuccessHandler)completionHandler
                                                errorHandler:(RCFailureHandler)errorHandler;
 
+#pragma mark - 名医筛选列表
+
++ (void)queryMingYiDoctorListWithDepartmentStr:(NSString *)departmentStr
+                                      priceStr:(NSString *)priceStr
+                                   hospitalStr:(NSString *)hospitalStr
+                                      page:(int)page
+                         completionHandler:(RCSuccessHandler)completionHandler
+                              errorHandler:(RCFailureHandler)errorHandler;
 #pragma mark - 名医详情
 
 /**
@@ -390,7 +472,6 @@ typedef void(^RCFailureHandler)(NSError *error);
 + (void)queryMingYiDoctorDetailWithDoctorId:(NSString *)dotorId
                           completionHandler:(RCSuccessHandler)completionHandler
                                errorHandler:(RCFailureHandler)errorHandler;
-#pragma mark - 订单管理
 
 /**
  获取病人列表
@@ -414,33 +495,5 @@ typedef void(^RCFailureHandler)(NSError *error);
                      weight:(NSString *)weight
           completionHandler:(RCSuccessHandler)completionHandler
                errorHandler:(RCFailureHandler)errorHandler;
-/**
- 生成订单
- 
- @param doctorId 医生id
- @param type 服务类型
- @param patient_id 病人id
- @param phone 手机号
- @param reservation_time 期望时间
- @param completionHandler 成功回调
- @param errorHandler 失败回调
- */
-+ (void)saveServerOrderWithdoctorId:(NSString *)doctorId
-                        serviceType:(NSString *)type
-                          patientId:(NSString *)patient_id
-                              phone:(NSString *)phone
-                    reservationTime:(NSString *)reservation_time
-                  completionHandler:(RCSuccessHandler)completionHandler
-                       errorHandler:(RCFailureHandler)errorHandler;
 
-/**
- 去支付 生成h5 页面
- 
- @param orderId 订单id
- @param completionHandler 成功回调
- @param errorHandler 失败回调
- */
-+ (void)queryMingYiPayOrderAddressWithorderId:(NSString *)orderId
-                            completionHandler:(RCSuccessHandler)completionHandler
-                                 errorHandler:(RCFailureHandler)errorHandler;
 @end

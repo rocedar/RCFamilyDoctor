@@ -1,6 +1,6 @@
 {
   "name": "RCFamilyDoctor",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "瑰柏科技家庭医生组件",
   "homepage": "https://github.com/rocedar/RCFamilyDoctor",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/rocedar/RCFamilyDoctor.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"

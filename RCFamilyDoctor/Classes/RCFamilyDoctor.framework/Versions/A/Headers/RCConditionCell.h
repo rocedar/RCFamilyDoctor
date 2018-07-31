@@ -6,17 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCDropdownModel.h"
 
 @interface RCConditionCell : UITableViewCell
-@property (copy, nonatomic) NSString *title;
+
+@property (strong, nonatomic) RCDropdownModel *dropdownModel;
+
+@property (strong, nonatomic) RCChildModel *childModel;
 
 
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 
-/**
- 设置cell状态
- 
- @param status = yes 选中; = no 未选中;
- */
-- (void)setStatus:(BOOL)status;
 @end

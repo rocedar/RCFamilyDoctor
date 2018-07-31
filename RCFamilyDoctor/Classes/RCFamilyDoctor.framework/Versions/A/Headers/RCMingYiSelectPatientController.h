@@ -9,4 +9,6 @@
 
 @interface RCMingYiSelectPatientController : UIViewController
 
+@property (nonatomic,copy) void(^patientBlock)(NSString *sickId,NSString *sickName);
+
 @end

@@ -11,7 +11,9 @@
 
 @property (copy, nonatomic) NSString *sick_id;
 @property (copy, nonatomic) NSString *sick_name;
-@property (copy, nonatomic) NSString *age;
+@property (copy, nonatomic) NSString *birthday;
 @property (copy, nonatomic) NSString *sex;
+@property (copy, nonatomic) NSString *gender;
+@property (copy, nonatomic) NSString *age;
 
 @end

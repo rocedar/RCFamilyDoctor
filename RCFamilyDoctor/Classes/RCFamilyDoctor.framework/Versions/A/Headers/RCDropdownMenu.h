@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RCDropdownModel.h"
 
 @protocol RCDropdownMenuDelegate <NSObject>
 
-- (void)dropdownSelectedLeftIndex:(NSString *)left RightIndex:(NSString *)right;
+- (void)selectedIndex:(NSInteger)index firstModel:(RCDropdownModel *)firstModel withSecondModel:(RCChildModel *)secondModel;
 
 @end
 

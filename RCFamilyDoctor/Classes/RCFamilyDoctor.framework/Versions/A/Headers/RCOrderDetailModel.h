@@ -16,6 +16,8 @@
 @property (copy, nonatomic) NSString *portrait;
 /** 订单ID */
 @property (copy, nonatomic) NSString *order_id;
+/** 待付金额 */
+@property (copy, nonatomic) NSString *fee;
 /** 实付金额 */
 @property (copy, nonatomic) NSString *fee_paid;
 /** 期望服务时间 */
