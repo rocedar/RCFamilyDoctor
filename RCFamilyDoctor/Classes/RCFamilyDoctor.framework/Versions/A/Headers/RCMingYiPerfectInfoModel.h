@@ -22,10 +22,12 @@
 @property (nonatomic,copy) NSString *symptom;
 /** 检查单 */
 @property (nonatomic,copy) NSString *inspection;
+@property (nonatomic,strong) NSMutableArray *inspectionArr;
 /** 期望得到的帮助 */
 @property (nonatomic,copy) NSString *expect_help;
 /** 病历资料 */
 @property (nonatomic,copy) NSString *case_data;
+@property (nonatomic,strong) NSMutableArray *case_dataArr;
 /** 患者id */
 @property (nonatomic,copy) NSString *patient_id;
 @end

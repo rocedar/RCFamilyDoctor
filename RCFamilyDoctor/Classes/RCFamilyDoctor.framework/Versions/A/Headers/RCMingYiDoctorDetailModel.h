@@ -23,6 +23,8 @@
 @property (nonatomic,copy) NSString *department_name;
 /** 擅长领域 */
 @property (nonatomic,copy) NSString *skilled;
+/** 服务说明 */
+@property (nonatomic,copy) NSString *service_desc;
 /** 医院级别 */
 @property (nonatomic,copy) NSString *hospital_level;
 /** 医生简介 */
@@ -37,6 +39,9 @@
 @property (nonatomic,assign) CGFloat serverHeight;
 /** header 高度 */
 @property (nonatomic,assign) CGFloat headerHeight;
+
+/** 跳转标识  0 电话咨询  1视频咨询 */
+@property (nonatomic,assign) int from;
 @end
 
 @interface RCMingYiDoctorServerTypeDetail : NSObject
