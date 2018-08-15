@@ -51,5 +51,7 @@
 @property (copy, nonatomic) NSString *profession_name;
 /** 服务类型名称 */
 @property (copy, nonatomic) NSString *service_type_name;
+/** 服务类型: 电话咨询 1001 视频咨询 1002 */
+@property (copy, nonatomic) NSString *service_type_id;
 
 @end

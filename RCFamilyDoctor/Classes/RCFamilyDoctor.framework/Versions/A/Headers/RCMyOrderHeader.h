@@ -11,6 +11,8 @@
 
 @property (strong, nonatomic) NSArray *titleArray;
 
+@property (assign, nonatomic) NSInteger selectIndex;
+
 @property (copy, nonatomic) void(^selectBlock)(NSString *orderStatus);
 
 @end
