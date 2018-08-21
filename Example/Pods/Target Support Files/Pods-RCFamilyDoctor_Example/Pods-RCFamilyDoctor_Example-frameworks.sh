@@ -143,10 +143,16 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NVS.framework"
   install_framework "${PODS_ROOT}/YZAppSDK/Release/YZBaseSDK.framework"
   install_framework "${PODS_ROOT}/YZAppSDK/Release/YZSDKCore.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NVS.framework"
   install_framework "${PODS_ROOT}/YZAppSDK/Release/YZBaseSDK.framework"
   install_framework "${PODS_ROOT}/YZAppSDK/Release/YZSDKCore.framework"
 fi

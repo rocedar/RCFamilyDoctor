@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
   s.framework = 'ContactsUI','AddressBookUI','AddressBook'
   
   s.dependency 'RCBaseComponent'
+  s.dependency 'RCNIMAVChatComponet'
+
   s.dependency 'EasyUI','~> 0.3.4'
   
   s.dependency 'UPYUN', '~> 1.0.0'

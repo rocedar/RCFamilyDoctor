@@ -34,7 +34,8 @@ PODS:
     - KeychainItemWrapper-hicool (~> 0.0.1)
     - MJExtension (~> 3.0.13)
     - XY_NetWorkClient (~> 1.0.6)
-  - RCBaseComponent (0.2.3):
+  - NIMSDK (5.5.0)
+  - RCBaseComponent (0.2.5):
     - AFNetworking
     - MJExtension
     - SVProgressHUD
@@ -45,10 +46,16 @@ PODS:
     - Masonry (~> 1.0.1)
     - MJRefresh (= 3.1.0)
     - RCBaseComponent
+    - RCNIMAVChatComponet
     - SDWebImage (= 4.0.0)
     - TZImagePickerController
     - UPYUN (~> 1.0.0)
     - YZAppSDK (= 6.3.4)
+  - RCNIMAVChatComponet (0.1.2):
+    - Masonry (~> 1.0.1)
+    - NIMSDK
+    - RCBaseComponent
+    - SDWebImage (= 4.0.0)
   - Reachability (3.2)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -77,6 +84,7 @@ SPEC REPOS:
     - Masonry
     - MJExtension
     - MJRefresh
+    - NIMSDK
     - Reachability
     - SDWebImage
     - SVProgressHUD
@@ -85,6 +93,7 @@ SPEC REPOS:
     - YZAppSDK
   https://github.com/rocedar/RocedarPodSpecs.git:
     - RCBaseComponent
+    - RCNIMAVChatComponet
   https://github.com/rRun/xy_podSepcs.git:
     - EasyUI
     - ftcodec
@@ -107,8 +116,10 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
-  RCBaseComponent: d60a2eea1edfc8ef211b0e148b2c5cff9b3662c5
-  RCFamilyDoctor: a06cbccee56a17df1962e77cba246b36c4ae63d7
+  NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
+  RCBaseComponent: e95efabd9b6a8ed05338a598912b3a3f01fd364b
+  RCFamilyDoctor: 879cde3a1de75b3ae30b9b96dd59738c8f1beaee
+  RCNIMAVChatComponet: e923cfae6812285fa5d8de2f5bd0a0258c2ec7d8
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
