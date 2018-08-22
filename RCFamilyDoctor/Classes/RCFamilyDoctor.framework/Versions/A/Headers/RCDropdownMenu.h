@@ -22,6 +22,8 @@
 
 - (void)hideDropdownMenu;
 
+- (void)removeDropDownMenu;
+
 - (instancetype)initDropdownMenuWithFrame:(CGRect)frame Menutitles:(NSArray *)titles;
 
 @end

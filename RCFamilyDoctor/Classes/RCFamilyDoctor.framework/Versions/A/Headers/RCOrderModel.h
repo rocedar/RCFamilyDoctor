@@ -10,7 +10,7 @@
 @class Snapshot;
 
 @interface RCOrderModel : NSObject
-/** 订单状态 = -1 删除; = 0 已取消; = 1 待付款; = 2 已支付; = 3 已完成; = 4 已退款 */
+/** 订单状态 = -1 删除; = 0 已取消; = 1 待付款; = 2 已支付; = 3 已完成; = 4 退款中; = 6 已退款 */
 @property (copy, nonatomic) NSString *status;
 /** 订单ID */
 @property (copy, nonatomic) NSString *order_id;

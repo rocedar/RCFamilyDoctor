@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RCFamilyDoctor'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = '瑰柏科技家庭医生组件'
   s.homepage         = 'https://github.com/rocedar/RCFamilyDoctor'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
