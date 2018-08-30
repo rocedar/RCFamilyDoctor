@@ -10,7 +10,7 @@
 @protocol RCDropdownButtonDelegate <NSObject>
 
 - (void)showDropdownMenu:(NSInteger)index;
-- (void)hideDropdownMenu;
+- (void)hideDropdownMenuWithDuration:(CGFloat)time;
 
 @end
 

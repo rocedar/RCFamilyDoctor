@@ -39,10 +39,10 @@ PODS:
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCFamilyDoctor (0.2.9):
+  - RCFamilyDoctor (0.3.0):
     - CYLTableViewPlaceHolder
-    - EasyUI (~> 0.3.4)
-    - IQKeyboardManager (~> 4.0.7)
+    - EasyUI
+    - IQKeyboardManager
     - Masonry (~> 1.0.1)
     - MJRefresh (= 3.1.0)
     - RCBaseComponent
@@ -51,7 +51,7 @@ PODS:
     - TZImagePickerController
     - UPYUN (~> 1.0.0)
     - YZAppSDK (= 6.3.4)
-  - RCNIMAVChatComponet (0.1.3):
+  - RCNIMAVChatComponet (0.1.5):
     - Masonry (~> 1.0.1)
     - NIMSDK
     - RCBaseComponent
@@ -61,7 +61,7 @@ PODS:
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SVProgressHUD (2.2.5)
-  - TZImagePickerController (2.1.8)
+  - TZImagePickerController (3.0.2)
   - UPYUN (1.0.3)
   - XY_NetWorkClient (1.0.6):
     - AFNetworking
@@ -118,12 +118,12 @@ SPEC CHECKSUMS:
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
   NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
   RCBaseComponent: 7626fbe89b5d8c7d31b207d50276a66335d19537
-  RCFamilyDoctor: baa1184dbf8ac7f8e7a28a7dc20229576591f508
-  RCNIMAVChatComponet: 37526340fd379e56e0eba82babb92769a6df4503
+  RCFamilyDoctor: 8dfb874f2defce6bd9b3bc4bb40d596b9c5cc0de
+  RCNIMAVChatComponet: f2f72fbbd474a4d5832b33b64072ad6db85fe470
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TZImagePickerController: c2c75f3d5c6b9c634185ecb458df66d0aab8bbae
+  TZImagePickerController: c6736038f5016a8be14132fd07e4e92ce6496385
   UPYUN: 9057df65fa50b8c459598ecb97f237040ebddf7c
   XY_NetWorkClient: 9a87af9a7f98cad27bf99b52f494447fde6dd933
   YZAppSDK: 1703d2c402ea126032c5cd9d032ec2dd7edf9113

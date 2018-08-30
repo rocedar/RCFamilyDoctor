@@ -21,6 +21,6 @@
 - (instancetype)initWithFrame:(CGRect)frame;
 
 - (void)showTableView:(NSInteger)index withShowItems:(NSArray *)showItems;
-- (void)hideTableView;
+- (void)hideTableViewWithDruation:(CGFloat)time;
 
 @end

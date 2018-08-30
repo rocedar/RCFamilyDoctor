@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RCFamilyDoctor'
-  s.version          = '0.2.9'
+  s.version          = '0.3.0'
   s.summary          = '瑰柏科技家庭医生组件'
   s.homepage         = 'https://github.com/rocedar/RCFamilyDoctor'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,10 +16,9 @@ Pod::Spec.new do |s|
   s.dependency 'RCBaseComponent'
   s.dependency 'RCNIMAVChatComponet'
 
-  s.dependency 'EasyUI','~> 0.3.4'
-  
+  s.dependency 'EasyUI'
   s.dependency 'UPYUN', '~> 1.0.0'
-  s.dependency 'IQKeyboardManager', '~> 4.0.7'
+  s.dependency 'IQKeyboardManager'
   s.dependency 'YZAppSDK','6.3.4'
   s.dependency 'Masonry', '~> 1.0.1'
   s.dependency 'SDWebImage','4.0.0'

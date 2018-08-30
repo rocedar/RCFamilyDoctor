@@ -20,7 +20,7 @@
 
 @property (strong, nonatomic) NSArray *menuItems;
 
-- (void)hideDropdownMenu;
+- (void)hideDropdownMenuWithDuration:(CGFloat)time;
 
 - (void)removeDropDownMenu;
 
