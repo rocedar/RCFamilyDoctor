@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 typedef void(^RCHTTPSessionSuccessHandler)(NSURLSessionDataTask *task,id responseObject);
 typedef void(^RCHTTPSessionFailureHandler)(NSURLSessionDataTask *task,  NSError *error);

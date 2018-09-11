@@ -15,51 +15,49 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
-  - CYLTableViewPlaceHolder (1.0.8)
+  - CYLTableViewPlaceHolder (1.0.9)
   - EasyUI (0.3.4):
     - Aspects (~> 1.4.1)
-    - Masonry (~> 1.0.2)
+    - Masonry (~> 1.1)
     - MTalker
     - Reachability (~> 3.2)
-    - SDWebImage (~> 4.0.0-beta2)
+    - SDWebImage (~> 4.4.2)
     - XY_NetWorkClient (~> 1.0.6)
   - ftcodec (1.1.0.307)
-  - IQKeyboardManager (4.0.13)
+  - IQKeyboardManager (6.1.1)
   - KeychainItemWrapper-hicool (0.0.1)
-  - Masonry (1.0.2)
+  - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
-  - MJRefresh (3.1.0)
+  - MJRefresh (3.1.15.7)
   - MTalker (0.3.3):
     - ftcodec (~> 1.1.0.307)
     - KeychainItemWrapper-hicool (~> 0.0.1)
     - MJExtension (~> 3.0.13)
     - XY_NetWorkClient (~> 1.0.6)
-  - NIMSDK (5.5.0)
-  - RCBaseComponent (0.2.6):
+  - NIMSDK (5.4.0)
+  - RCBaseComponent (0.2.8):
     - AFNetworking
-    - MJExtension
-    - SVProgressHUD
-  - RCFamilyDoctor (0.3.0):
     - CYLTableViewPlaceHolder
-    - EasyUI
     - IQKeyboardManager
-    - Masonry (~> 1.0.1)
-    - MJRefresh (= 3.1.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+  - RCFamilyDoctor (0.3.1):
+    - EasyUI
     - RCBaseComponent
     - RCNIMAVChatComponet
-    - SDWebImage (= 4.0.0)
     - TZImagePickerController
     - UPYUN (~> 1.0.0)
     - YZAppSDK (= 6.3.4)
-  - RCNIMAVChatComponet (0.1.5):
-    - Masonry (~> 1.0.1)
-    - NIMSDK
+  - RCNIMAVChatComponet (0.1.6):
+    - NIMSDK (= 5.4.0)
     - RCBaseComponent
-    - SDWebImage (= 4.0.0)
   - Reachability (3.2)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SVProgressHUD (2.2.5)
   - TZImagePickerController (3.0.2)
   - UPYUN (1.0.3)
@@ -107,21 +105,21 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  CYLTableViewPlaceHolder: 44075c119aab78bbc514c75d771d6565e19938e8
-  EasyUI: 6e26a014e16b528d0cd3b34dfbaf089fae02259a
+  CYLTableViewPlaceHolder: 678e070180a24e2f241adc7830d5d7f5e2abbaa5
+  EasyUI: 3aa39e3c88a07be517411764048c116c7f439cd0
   ftcodec: 9ccb75f978b7367d1908adc4e3ca4b79baa69950
-  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   KeychainItemWrapper-hicool: 880c603d8d0acfcc5b87d22bc45b49d3283dce1d
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
-  NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
-  RCBaseComponent: 7626fbe89b5d8c7d31b207d50276a66335d19537
-  RCFamilyDoctor: 8dfb874f2defce6bd9b3bc4bb40d596b9c5cc0de
-  RCNIMAVChatComponet: f2f72fbbd474a4d5832b33b64072ad6db85fe470
+  NIMSDK: b96577d4f892a606e644eeba55837ab5cf5de071
+  RCBaseComponent: 958c3d34a46f6fd086454467a6b6631b38c5b694
+  RCFamilyDoctor: 75432ec560f1864b5c370ffb0fe4ea541bf925fe
+  RCNIMAVChatComponet: b90c10624c5dde717b3d9593f11b1a67380fc280
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: c6736038f5016a8be14132fd07e4e92ce6496385
   UPYUN: 9057df65fa50b8c459598ecb97f237040ebddf7c
