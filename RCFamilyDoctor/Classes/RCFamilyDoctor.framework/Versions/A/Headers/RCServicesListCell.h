@@ -7,8 +7,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class RCServicesListModel;
 @interface RCServicesListCell : UITableViewCell
 
+@property (nonatomic,strong) RCServicesListModel *model;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath;
+
 
 @end

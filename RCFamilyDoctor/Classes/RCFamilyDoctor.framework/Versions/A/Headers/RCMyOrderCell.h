@@ -10,10 +10,9 @@
 
 @interface RCMyOrderCell : UITableViewCell
 
-+ (instancetype)cellWithTableView:(UITableView *)tableView;
-
 @property (strong, nonatomic) RCOrderModel *orderModel;
 
 @property (copy, nonatomic) void(^refreshBlock)(void);
 
++ (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

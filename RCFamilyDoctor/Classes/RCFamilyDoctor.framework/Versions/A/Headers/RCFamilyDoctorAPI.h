@@ -317,6 +317,23 @@ typedef void(^RCFailureHandler)(NSError *error);
                        errorHandler:(RCFailureHandler)errorHandler;
 
 /**
+ 保存订单 (协医无忧、家庭医生)
+ 
+ @param order_type_id 订单类型id(1000,名医生；1002,家庭医生；1003,协医无忧)
+ @param goods_id 商品id
+ @param sku_id 库存id
+ @param outer_id <#outer_id description#>
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)saveServerOrderWithOrder_type_id:(NSString *)order_type_id
+                                 goodsId:(NSString *)goods_id
+                                  sku_id:(NSString *)sku_id
+                                outer_id:(NSString *)outer_id
+                             extra_param:(NSDictionary *)extra_param
+                       completionHandler:(RCSuccessHandler)completionHandler
+                            errorHandler:(RCFailureHandler)errorHandler;
+/**
  订单列表
 
  @param status 订单状态(多个状态英文逗号隔开)
@@ -496,4 +513,47 @@ typedef void(^RCFailureHandler)(NSError *error);
           completionHandler:(RCSuccessHandler)completionHandler
                errorHandler:(RCFailureHandler)errorHandler;
 
+#pragma mark - 服务购买
+
+/**
+ 服务购买列表
+ 
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)servicesListWithCompletionHandler:(RCSuccessHandler)completionHandler
+                             errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 查询服务购买详情
+ 
+ @param goodsId 服务id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryServicesDetailWithGoodsId:(NSString *)goodsId
+                     completionHandler:(RCSuccessHandler)completionHandler
+                          errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 查询库存详情
+ 
+ @param skuId 库存id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryServicesSkuDetailWithSkuId:(NSString *)skuId
+                      completionHandler:(RCSuccessHandler)completionHandler
+                           errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 协医续费
+ 
+ @param order_id 订单id
+ @param completionHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)queryServicesOrderRenewInfoWithorder_id:(NSString *)order_id
+                              completionHandler:(RCSuccessHandler)completionHandler
+                                   errorHandler:(RCFailureHandler)errorHandler;
 @end

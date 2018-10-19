@@ -10,6 +10,8 @@
 @interface RCOrderInfoCell : UITableViewCell
 
 @property (assign, nonatomic) NSInteger status;
+/** 订单号 */
+@property (copy, nonatomic) NSString *orderId;
 
 @property (strong, nonatomic) NSDictionary *dict;
 

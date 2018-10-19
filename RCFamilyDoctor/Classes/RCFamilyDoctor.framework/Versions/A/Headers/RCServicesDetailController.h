@@ -8,5 +8,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RCServicesDetailController : UIViewController
-
+@property (nonatomic,copy) NSString *goods_id;
 @end

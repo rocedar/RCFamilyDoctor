@@ -9,4 +9,6 @@
 
 @interface RCServicesTopay : UIViewController
 
+@property (nonatomic,copy) NSString *skuId;
+
 @end
