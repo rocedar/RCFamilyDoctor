@@ -44,7 +44,7 @@ PODS:
     - MJRefresh
     - SDWebImage
     - SVProgressHUD
-  - RCFamilyDoctor (0.3.2):
+  - RCFamilyDoctor (0.3.3):
     - EasyUI
     - RCBaseComponent
     - RCNIMAVChatComponet
@@ -116,7 +116,7 @@ SPEC CHECKSUMS:
   MTalker: d3f87f7d1ce0f20d8c9b61907883b389e8a48574
   NIMSDK: b96577d4f892a606e644eeba55837ab5cf5de071
   RCBaseComponent: 958c3d34a46f6fd086454467a6b6631b38c5b694
-  RCFamilyDoctor: 560dcca9a9a7de06c92d01dc635fb5e865c1559c
+  RCFamilyDoctor: 0a426e75d2b007202df4e1fd2ea0487c551a77c8
   RCNIMAVChatComponet: b90c10624c5dde717b3d9593f11b1a67380fc280
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
@@ -128,4 +128,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8641b494608299573026deec2c0a50fe3bdb808f
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

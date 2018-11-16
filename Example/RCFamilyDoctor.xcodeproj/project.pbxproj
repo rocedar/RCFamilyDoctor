@@ -259,7 +259,7 @@
 				ORGANIZATIONNAME = CoderTWWu;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = AJJJS3QK49;
+						DevelopmentTeam = E25NJRCA8A;
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
@@ -547,7 +547,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AJJJS3QK49;
+				DEVELOPMENT_TEAM = E25NJRCA8A;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCFamilyDoctor/RCFamilyDoctor-Prefix.pch";
@@ -569,7 +569,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AJJJS3QK49;
+				DEVELOPMENT_TEAM = E25NJRCA8A;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCFamilyDoctor/RCFamilyDoctor-Prefix.pch";
