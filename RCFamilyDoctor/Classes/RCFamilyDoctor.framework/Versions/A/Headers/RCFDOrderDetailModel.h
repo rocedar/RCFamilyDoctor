@@ -28,6 +28,10 @@
 @property (copy, nonatomic) NSString *server_status;
 /** 订单状态 */
 @property (copy, nonatomic) NSString *status;
+/** 昵称 */
+@property (copy, nonatomic) NSString *nick_name;
+/** 手机号 */
+@property (copy, nonatomic) NSString *phone;
 /** 订单进度 */
 @property (strong, nonatomic) NSArray <ProgressModel *> *progress;
 
