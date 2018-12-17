@@ -556,4 +556,31 @@ typedef void(^RCFailureHandler)(NSError *error);
 + (void)queryServicesOrderRenewInfoWithorder_id:(NSString *)order_id
                               completionHandler:(RCSuccessHandler)completionHandler
                                    errorHandler:(RCFailureHandler)errorHandler;
+
+#pragma mark - 在线问诊
+/**
+ 图文问诊列表
+ */
++ (void)fetchXunYiConsultListWithPage:(int)page
+                  successHandler:(RCSuccessHandler)successHandler
+                    errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 图文问诊详情
+ */
++ (void)fectchXunYiConsultDetailWithAdviceId:(NSString *)adviceId
+                         successHandler:(RCSuccessHandler)successHandler
+                           errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 发送消息
+ */
++ (void)sendXunYiMessageWithAdviceId:(NSString *)adviceId
+                             queryId:(NSString *)queryId
+                           patientId:(NSString *)patientId
+                            question:(NSString *)message
+                               image:(NSString *)image
+                      successHandler:(RCSuccessHandler)successHandler
+                        errorHandler:(RCFailureHandler)errorHandler;
+
 @end

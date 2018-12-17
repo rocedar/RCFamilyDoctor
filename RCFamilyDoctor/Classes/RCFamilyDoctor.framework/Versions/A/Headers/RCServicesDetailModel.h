@@ -19,6 +19,7 @@
 @property (nonatomic,copy) NSString *outer_id;
 @property (nonatomic,copy) NSString *sku_name;
 @property (nonatomic,copy) NSString *sku_banner;
+@property (copy, nonatomic) NSString *sku_icon;
 @property (nonatomic,copy) NSString *sku_title;
 @property (nonatomic,copy) NSString *sku_subtitle;
 @property (nonatomic,copy) NSString *validity_period;
@@ -29,5 +30,6 @@
 @property (nonatomic,copy) NSString *sku_desc;
 @property (nonatomic,copy) NSString *status;
 @property (nonatomic,copy) NSString *goods_type_id;
-
+/** 购买须知 */
+@property (copy, nonatomic) NSString *purchase_notes;
 @end

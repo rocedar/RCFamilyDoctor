@@ -9,4 +9,6 @@
 
 @interface RCPayWebViewController : UIViewController
 @property(nonatomic,copy)NSString *urlStr;
+//alert 文案
+@property (nonatomic,copy) NSString *alertStr;
 @end

@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RCFamilyDoctorConst.h"
 
 @interface RCBaseTableViewCell : UITableViewCell
 
